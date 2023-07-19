@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,4 +14,5 @@ import lombok.NoArgsConstructor;
 public class ProgLanguage {
     private int id;
     private String name;
+    int a;
 }
