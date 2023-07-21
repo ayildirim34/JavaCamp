@@ -1,18 +1,14 @@
-package kodlama.io.progLanguage.entities;
+package kodlama.io.progLanguage.business.request;
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-@Entity
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class ProgLanguage {
+public class UpdateTecReq {
     private int id;
-    private String name;
-    int a;
+    private  String name;
 }
